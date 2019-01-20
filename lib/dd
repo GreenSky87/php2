@@ -1,0 +1,30 @@
+abstract class Tovar{
+
+protected  $id; //id
+protected $tip; //тип товара
+protected $fabric; //страна производитель
+protected $trademark; // марка производителя
+protected $product_name; //торговое название товара
+protected $color; //цвет товара
+protected $price; //цена товара
+protected $weight; //вес товара
+protected function getId(){
+return $this->id;
+}
+abstract  protected function getValue($product_name);
+public function printValue() {
+print $this->getValue($product_name) . "\n";
+}
+}
+
+class B extends Tovar {
+protected function getValue($product_name){
+return $this->product_name;
+}
+}
+$b = new B;
+
+
+public function getSell_count($price,$sell_count){
+return "Стоимость товара при покупке 20 штук=".($this->getValue($price)*$sell_count).'$'. "\n";
+}
