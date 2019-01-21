@@ -1,0 +1,43 @@
+<html>
+  <head></head>
+<head>
+  {% include 'header.tmpl' %}
+</head>
+ <body>
+ <header>
+ <div id="flexH"><!---Первая строка-->
+             {% include 'leftflexH.tmpl' %}><!--- Левая часть верхней строки-->
+             {% include 'rightflexH.tmpl' %}<!--- Правая часть верхней строки-->
+
+         </div><br> <!---Верхняя строка-->
+ </header>
+
+  <h2>Account successfully created!</h2>
+	  <p>Hello {{ name }}</p>
+	  <p>Thank you for registering with us. Your account details are as follows: </p>
+  <p style="margin-left: 10px">
+	  Username: {{ username }} <br/>
+	  Password: {{ password }}
+	  </p> 
+	  <p>You've already been logged in, so go on in and have some fun!</p>
+  
+	{{ "now"|date("d M Y h:i") }}<br />
+	{{ "now"|date("d/M/Y") }}
+
+	{{ "hello world"|upper }}<br />
+	{{ "hello world"|capitalize }}<br />
+	{{ "hello world"|title }}<br />
+	{{ "hello world"|lower }}<br />
+	{{ "<div>hello world</div>"|striptags }}<br />
+	{{ "<div>hello world</div>"|striptags|replace({"world" : "Welt"}) }}<br />
+
+	{% autoescape true %}
+
+	Escaped output: sdihwkjd
+
+	{% endautoescape %}
+  </body>
+
+   {% include 'footer.tmpl' %}
+
+</html>
