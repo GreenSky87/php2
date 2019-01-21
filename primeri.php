@@ -160,4 +160,72 @@ class Singlton {
     }
 }
 Singlton::getInstance()->run();
+
+
+//// Подсчет в корзине
+/// abstract class ProductA {
+//    protected static $income;
+//
+//    abstract protected function getValue($price);
+//}
+//class ProductB extends ProductA {
+//    protected function getValue($price) {
+//        return $this->price;
+//    }
+//
+//    public $id1;
+//    public $id2;
+//
+//    public function foo() {
+//        $this->id1 = 2; $this->id2 = 3;
+//        $pro=$this->id1*$this->id2;
+//
+//
+//        parent::$income=parent::$income+$pro;
+//        echo parent::$income;
+//    }
+//}
+//
+//class ProductC extends ProductA {
+//    protected function getValue($price) {
+//        return $this->price;
+//    }
+//
+//    public $id1;
+//    public $id2;
+//
+//    public function foo() {
+//        $this->id1 = 1; $this->id2 = 3;
+//        $pro=$this->id1*$this->id2;
+//
+//
+//        parent::$income=parent::$income+$pro;
+//        echo parent::$income;
+//    }
+//}
+//class Cart extends ProductA {
+//    protected function getValue($price) {
+//        return $this->price;
+//    }
+//
+//    public $id1;
+//    public $id2;
+//
+//    public function cartsell() {
+//      echo 'Итоговая цена='.parent::$income;
+//    }
+//
+//}
+//
+//
+//$b1 = new ProductB();
+//$c1 = new ProductC();
+//$d1 = new Cart();
+//echo $b1->foo().'<br>';
+//echo $b1->foo().'<br>';
+//echo $b1->foo().'<br>';
+//echo $c1->foo().'<br>';
+//echo $d1->cartsell().'<br>';
+
+
 ?>
