@@ -2,6 +2,8 @@
 
 namespace Classes;
 
+
+
 class Application {
 
 	private $view;
@@ -56,6 +58,27 @@ class Application {
 			'items' => $items
 		));		
 
-	}	
+	}
+    public function example4() {
+
+        // подключение к бд
+        try {
+            $dbh = new PDO('mysql:dbname=shop;host=localhost', 'root', '');
+        }
+        catch (PDOException $e)
+        {
+            echo "Error: Could not connect. " . $e->getMessage();
+        }
+
+        $sql = "SELECT * from gallery where tip_gallery='gal_top'";
+        $sth = $dbh->query($sql);
+        while ($row = $sth->fetchObject()) {
+            $data[] = $row;
+        }
+        $this->view->render("gallery1p", array(
+            'images' => $data
+        ));
+
+    }
 
 }
