@@ -1,0 +1,7 @@
+CREATE TABLE reviews
+(
+  id   INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NULL DEFAULT '',
+  `text` TEXT NULL,
+  PRIMARY KEY (id)
+);
