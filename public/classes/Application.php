@@ -10,23 +10,15 @@ class Application {
 		$this->view = $view;
 	}
 
-    public function title_name1() {
-
-        $pageH1 = 'Магазин одежды BRAND';
-
-        $this->view->render("header", array(
-            'title' => $pageH1
-        ));
-
-    }
 
 	public function example1() {
 		$name 		= "Clark Kent"; //$_POST["name"];
 		$username 	= "ckent"; //$_POST["username"];
 		$password 	= "password"; //$_POST["password"];
+        $loggin = 'yes';
         $logodir = 'img/index/logo.png';
         $menu = require ROOT_DIR.'./engine/menu_builder.php';
-
+        $pageH1 = 'Магазин одежды BRAND';
 		/*if (!$this->isValid($name)) {
 			throw new Exception("We have troubles with ".$name, 500);
 		}*/
@@ -37,6 +29,7 @@ class Application {
 			'username' 	=> $username,
 			'password' 	=> $password,
             'menu' 	=> $menu,
+            'title' => $pageH1,
 		));
 	}
 

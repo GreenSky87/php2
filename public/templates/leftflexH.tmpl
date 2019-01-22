@@ -9,17 +9,10 @@
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
                <ul>
-                 {% for item in menu %}
-                 <li><a href="{{ item.href }}">{{ item.name }}</a>
-                    <div class="dropdown-divider"></div>
-                        <ul class="subnav">
-
-                         {% for item in menu.podmenu %}
-                               <a href="{{ item.href }}">{{ item.name }}</a>
-                                 {% endfor %}
-                        </ul>                 </li>
-                 {% endfor %}
-               </ul>
+                    {% for item in menu %}
+                     <li><a class="dropdown-item" href="{{ item.href }}">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
 
         </div>
         <form class="form-inline" method="get">
@@ -28,17 +21,3 @@
         </form>
     </nav>
 </div>
- <ul>
-                 {% for item in menu %}
-                 <li><a href="{{ item.href }}">{{ item.name }}</a>
-                        {% if foo is defined %}
-                            <ul>
-                                {% for item in podmenu %}
-                                    <a href="{{ item.href }}">{{ item.name }}</a>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-
-                 {% endfor %}
-                 </ul>
-
