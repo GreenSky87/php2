@@ -22,7 +22,7 @@ try {
 	$app->example1();
 	//$app->example2();
 	//$app->example3();
-    $app->example4();
+
 
 } catch (Exception $e) {
 	die ('ERROR: ' . $e->getMessage());
@@ -41,7 +41,8 @@ include 'templates/chunks/block4.php';
         </span>
     </div>
 
-    <?php include 'templates/chunks/galery1r.php'; ?>
+    <?php
+    $app->example4();?>
     </div>
 <div class="Lorem">
     <button type="button" class="btn btn-default dalee" data-toggle="dropdown"><span class="mydal">Brose all product </span> <span class="myacc">&#8594;</span></button>

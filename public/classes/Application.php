@@ -75,8 +75,17 @@ class Application {
         while ($row = $sth->fetchObject()) {
             $data[] = $row;
         }
+        $sql2 = "SELECT * from gallery where tip_gallery='gal_bottom'";
+        $sth2 = $dbh->query($sql2);
+        while ($row2 = $sth2->fetchObject()) {
+            $data2[] = $row2;
+        }
         $this->view->render("gallery1p", array(
-            'images' => $data
+            'images' => $data,
+            'images2' => $data
+        ));
+        $this->view->render("gallery2p", array(
+         'images2' => $data2
         ));
 
     }
