@@ -1,0 +1,23 @@
+<nav class="navbarDZ navbar-expand-lg navbar-light bg-light rounded">
+    <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item Home">
+                    {% for item in menu %}
+                <a class="nav-link Home" href="{{ item.href }}">{{ item.name }}</a></li>
+                    {% endfor %}
+
+
+            </ul>
+
+            
+        </div>
+    </div>
+</nav>
