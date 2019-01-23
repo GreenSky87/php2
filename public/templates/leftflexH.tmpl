@@ -1,0 +1,23 @@
+<div> <!--- Левая часть верхней строки-->
+    <img src="{{ logodir }}" alt="logo" class="logo">
+
+    <h1>bran<span class="lastD">d</span>{{ "now"|date("Y") }}</h1>
+    <nav class="navbar navbar-light bg-light">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="Browse">Browse</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+               <ul>
+                    {% for item in menu %}
+                     <li><a class="dropdown-item" href="{{ item.href }}">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
+
+        </div>
+        <form class="form-inline" method="get">
+        <input name="search" class="form-control" type="search" placeholder="Search for item..." aria-label="Search">
+        <button class="btn2" type="submit">&#128269;</button>
+        </form>
+    </nav>
+</div>

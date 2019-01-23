@@ -1,0 +1,34 @@
+<div class="pravo"><!--- Правая часть верхней строки-->
+  <!--- Корзина-->
+  <div class="btn-group">
+     <button type="button" class="btn btn-default cart dropdown-toggle" data-toggle="dropdown"><img src="/img/index/cart.png" alt="cart"><span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                   <li>
+                        <button type="button" class="btn4">
+                          <a href="/cart/index.php">
+                            <span class="go_to_cart">go to cart</span>
+                         
+                          </a>
+                          </button>
+                    </li>
+                  </ul>
+                </div>
+            <!--- Аккаунт-->
+  <div class="btn-group">
+                  <button type="button" class="btn btn-default account dropdown-toggle" data-toggle="dropdown"><span class="myacc">My Account</span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      
+
+
+                        <a href="#">{{ name }}</a>
+                        {% if loggin == 'yes' %}
+                        <a href="logout.php"><span class="logo">Выйти</span></a>
+                        {% else %}
+                        <a href="login.php"><span class="logo">Войти</span></a>
+                        {% endif %}
+                    </li>
+                  </ul>
+                </div>
+            <!--- Аккаунт-->
+            </div>

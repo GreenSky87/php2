@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `short_description` TEXT NULL AFTER `name`;

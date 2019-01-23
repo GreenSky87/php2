@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `role` VARCHAR(255) NULL DEFAULT "user" AFTER `token`;

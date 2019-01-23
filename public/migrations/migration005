@@ -1,0 +1,11 @@
+CREATE TABLE products
+(
+  id   INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NULL DEFAULT '',
+  description TEXT NULL,
+  price DECIMAL(10, 2) DEFAULT 0,
+  image VARCHAR(255) NULL DEFAULT '',
+  category VARCHAR(255) NULL DEFAULT '',
+  deleted_at DATETIME NULL,
+  PRIMARY KEY (id)
+);
