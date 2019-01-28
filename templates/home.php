@@ -16,13 +16,6 @@
  </div>
 
 
-<?php include ROOT_DIR.'phplvl2/lesson2.php' ?>
-<br><br>
-<?php include ROOT_DIR.'phplvl2/lesson3.php' ?>
-<br><br>
-<a href="calc.php">>>>>>>>>>>>>>>>>>>>>>>Калькулятор</a><br>
-<a href="gallery.php">>>>>>>>>>>>Галерея под админом потом сделаю</a><br>
-
 <?php include ROOT_DIR.'templates/chunks/javascript.chunk.php' ?>
 
 <?php include ROOT_DIR.'templates/chunks/sliderup.php'; ?><!---- Слайдер --->

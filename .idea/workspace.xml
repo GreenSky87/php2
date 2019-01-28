@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b3ca6ee-07ff-4ea0-8944-9f1479a6608a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/catalog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>js</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/classes/Application.php" />
+        <option value="$PROJECT_DIR$/public/templates/rightflexH.tmpl" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/templates/home.php" />
+        <option value="$PROJECT_DIR$/public/common/script.php" />
+        <option value="$PROJECT_DIR$/../php2/public/ajax/ajax.php" />
+        <option value="$PROJECT_DIR$/../php2/public/ajax.php" />
+        <option value="$PROJECT_DIR$/engine/repositories/product.model.php" />
+        <option value="$PROJECT_DIR$/public/js/ajax.php" />
+        <option value="$PROJECT_DIR$/templates/catalog.php" />
+        <option value="$PROJECT_DIR$/public/js/ajax.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="repositories" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phplvl2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="phplvl2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phplvl2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b3ca6ee-07ff-4ea0-8944-9f1479a6608a" name="Default Changelist" comment="" />
+      <created>1548243570105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548243570105</updated>
+      <workItem from="1548243571205" duration="626000" />
+      <workItem from="1548244601230" duration="327000" />
+      <workItem from="1548244930144" duration="64000" />
+      <workItem from="1548681811775" duration="13385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14402000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/templates/head.chunk.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/navbar.tmpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chunks/galery1r.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/classes/View.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/funcs.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/helpers.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/repositories/employee.model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/repositories/picture.model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/gallery1p.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/rightflexH.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/repositories/user.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../localhost — копия (2)/public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/index.tmpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/classes/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chunks/rightflexH.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart/add.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart/delete.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart/update.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ajax/cart/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/product.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../localhost — копия (3)/public/cart/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../localhost — копия (3)/templates/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="89" selection-start-line="89" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ajax/common/script.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ajax/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/common/script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.890/db.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.813/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="92" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.502/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="77" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php2/public/ajax/db.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php2/public/ajax/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php2/public/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php2/public/ajax/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/repositories/product.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="4" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Загрузки/more/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

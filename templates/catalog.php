@@ -28,7 +28,7 @@
                 $products = getProducts($mysqlConnect, true);
                 foreach ($products as $product):
                     ?>
-                    <div class="col-md-4">
+                    <div class="col-lg">
                         <div class="card mb-4 shadow-sm" style="display:block;">
                             <div class="card-header">
                                 <?= $product['name'] ?> <?= $product['price'] ?> $
@@ -56,12 +56,22 @@
                 <?php
                 endforeach;
                 ?>
+
+            </div>
+            <div class="row" id="content">
+
             </div>
         </div>
+        <input id="show_more" count_show="6" count_add="25" type="button" value="Показать еще" />
+        <br><br>
+        <a id="calcLink" href="common/script.php" data-id="1">Еще 25 товаров</a><br>
     </div>
+
 
 </main>
 
-<?php include ROOT_DIR.'templates/chunks/javascript.chunk.php' ?>
+<?php include ROOT_DIR.'templates/chunks/javascript.chunk.php';
+?>
+<script src="/js/ajax.js"></script>
 </body>
 </html>

@@ -22,7 +22,7 @@
 
 
                         <a href="#">{{ name }}</a>
-                        {% if loggin == 'yes' %}
+                        {% if  user  is not null %}
                         <a href="logout.php"><span class="logo">Выйти</span></a>
                         {% else %}
                         <a href="login.php"><span class="logo">Войти</span></a>

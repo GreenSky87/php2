@@ -14,14 +14,15 @@ class Application {
 
 
 	public function example1() {
-		$name 		= "Clark Kent"; //$_POST["name"];
+		$name 		= 'Clark Kent'.$user['email']; //$_POST["name"];
 		$username 	= "ckent"; //$_POST["username"];
 		$password 	= "password"; //$_POST["password"];
         $loggin = 'yes';
         $logodir = 'img/index/logo.png';
         $menu = require ROOT_DIR.'./engine/menu_builder.php';
         $pageH1 = 'Магазин одежды BRAND';
-		/*if (!$this->isValid($name)) {
+        $users = $user['email'];
+        /*if (!$this->isValid($name)) {
 			throw new Exception("We have troubles with ".$name, 500);
 		}*/
 
@@ -32,6 +33,7 @@ class Application {
 			'password' 	=> $password,
             'menu' 	=> $menu,
             'title' => $pageH1,
+            'user' => $users,
 		));
 	}
 

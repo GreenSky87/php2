@@ -1,0 +1,11 @@
+CREATE TABLE `orders` (
+  `orederid` int(11) NOT NULL,
+  `userid` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
+  `orderdate` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`orederid`),
+  ADD UNIQUE KEY `productid` (`id`);
+COMMIT;

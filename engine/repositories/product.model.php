@@ -37,7 +37,7 @@ function getProducts($mysqlConnect, $notDeleted = false)
 {
     $sql = 'SELECT * FROM products';
     if ($notDeleted) {
-        $sql .= ' WHERE deleted_at IS NULL';
+        $sql .= ' WHERE deleted_at IS NULL limit 6';
     }
     $stmt = mysqli_query($mysqlConnect, $sql);
     $products = [];
@@ -71,5 +71,19 @@ function deleteProduct($mysqlConnect, $id)
         return false;
     }
     return true;
+}
+
+function getProducts25($mysqlConnect, $startIndex, $countView)
+{
+    $sql = 'SELECT * FROM products';
+
+        $sql .= " WHERE deleted_at IS NULL LIMIT $startIndex, $countView";
+
+    $stmt = mysqli_query($mysqlConnect, $sql);
+    $products25 = [];
+    while ($row = mysqli_fetch_assoc($stmt)) {
+        $products25[] = $row;
+    }
+    return $products25;
 }
 ?>
