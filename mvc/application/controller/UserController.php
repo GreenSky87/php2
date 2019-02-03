@@ -5,6 +5,7 @@ namespace application\controller;
 use \application\service\Service;
 use \application\controller\BaseController;
 use \application\model\UserModel;
+use \application\model\OrderModel;
 
 class UserController extends BaseController {
 
@@ -51,14 +52,18 @@ class UserController extends BaseController {
 	}
 	
 	public function action_orders() {
-
+        $total=0;
 		$user = $this->session->get("user");
 
 		$orderModel = new OrderModel();
 		$orders = $orderModel->getUserOrders($user["id"]);
-
+		foreach ($orders as $order)
+        {
+            $total=$total+$order["subtotal"];
+        }
 		return $this->view->render("user/orders", [
-			"orders" => $orders
+			"orders" => $orders,
+            "total" => $total
 		]);
 	}	
 

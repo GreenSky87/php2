@@ -9,16 +9,22 @@
 				<th>Price</th>
 				<th>Amount</th>
 				<th>Total</th>
+
 			</tr>
+			{% for order in orders %}
+            		<tr>
+            			<td>{{order.id}}</td>
+            			<td>{{order.name}}</td>
+            			<td>{{order.price}}</td>
+            			<td>{{order.amount}}</td>
+            			<td>{{order.subtotal}}</td>
+
+            		</tr>
+            		{% endfor %}
 			<tr>
-				<td>{{user.name}}</td>
-				<td>{{user.login}}</td>
-				<td>
-					<a href="/?path=user/edit" class="btn btn-success btn-small" style="display:inline;">
-						Edit
-					</a>
-				</td>
-			</tr>
+				<td colspan=4><b>TOTAL<b></td>
+				<td><b>{{total}}<b></td>
+							</tr>
 		</table>
 </div>
 

@@ -30,4 +30,26 @@ class OrderModel extends BaseModel {
 		return true;
 	}
 
+    public function getUserOrders($user_id) {
+        $statement = self::$connection->prepare("
+			SELECT 
+				orders.id as id,
+				goods.name as name,
+				goods.price as price,
+				orders.amount as amount,
+				(select  price*amount) as subtotal
+			FROM 
+				orders 
+			JOIN 
+				goods ON (goods.id = orders.good_id)
+			WHERE 
+				orders.user_id = :id 
+		");
+        $statement->bindValue(':id', $user_id, \PDO::PARAM_INT);
+        $statement->execute();
+
+        return $statement->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+
 }
